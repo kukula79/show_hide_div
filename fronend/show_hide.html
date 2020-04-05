@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/function.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container_navbar" >
+          <div class="row">
+            <div class="col">
+              <lable class="navbar-brand">JSON Generator</lable>
+            </div>
+            <div class="col">
+              <select name="nms_product" id="nms_product" class="form-control" required />
+                <option value="none">- Select Product -</option>
+                <option value="nx">NetXplorer (NX)</option>
+                <option value="dm">DM</option>
+                <option value="dsc">DSC</option>
+                <option value="smp">SMP</option>
+                <option value="smp_pcrf">SMP (pcrf)</option>
+                <option value="cs">ClearSee</option>
+                <option value="stc">STC</option>
+              </select>
+            </div>
+            <div class="col">
+              <select name="nms_mode" id="nms_mode" class="form-control" required />
+                <option value="none">- Select Mode -</option>
+                <option value="ha">High-Availability (HA)</option>
+                <option value="sa">Stand-Alone (SA)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <br>   <br>   <br>   <br>
+    <div id="content">
+       this is the hidden div!
+    </div>
+  </body>
+  </body>
+</html>
