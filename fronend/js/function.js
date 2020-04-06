@@ -20,10 +20,10 @@ function show_hide(product,mode){
 
     if ( product != "none"  &&  mode != "none" ){
        $("#content").show();
-       console.log("User select nms_product : "+ product+ "And nms_mode :"+mode + "-> Display");
+       console.log("User select nms_product : "+ product+ " And nms_mode :"+mode + "-> Display");
         } else {
             $("#content").hide();
-            console.log("User select nms_product : "+ product+ "And nms_mode :"+mode + "-> NOT Display");
+            console.log("User select nms_product : "+ product+ " And nms_mode :"+mode + "-> NOT Display");
         }
     }
 });
