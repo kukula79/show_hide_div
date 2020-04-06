@@ -17,7 +17,7 @@ function show_hide(product,mode){
 //            }
        } else {
             $("#content").hide();
-            console.log("User select nms_product : "+ product+ " And nms_mode :"+mode + "-> NOT Display");
+            console.log("User select nms_product : "+ product+ " And nms_mode :"+mode + " -> NOT Display");
         }
     }
 });
