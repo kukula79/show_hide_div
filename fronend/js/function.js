@@ -10,7 +10,7 @@ $(document).ready(function(){
 function show_hide(product,mode){
     if ( product != "none"  &&  mode != "none" ){
         $("#content").show();
-        console.log("User select nms_product : "+ product+ " And nms_mode :"+mode + "-> Display");
+        console.log("User select nms_product : "+ product+ " And nms_mode :"+mode + " -> Display");
 //        switch(product,mode){
 //            case (product == "cs"):
 //
